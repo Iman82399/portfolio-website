@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.body{
+    background-color: #1B2025;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn{
+    border-radius: 15px;
+    padding: 4px 16px;
+    border: none;
+    transition: all 0.5s;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btn:hover{
+    scale: 1.2;
+}
+
+/* css style for skills.html */
+
+.skills{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.skill{
+    background-color: rgba(151, 170, 189, 0.227);
+    color: #eef2f5;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
